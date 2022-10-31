@@ -13,7 +13,7 @@ public ChessPiece(Board board, Color color) {
 }
 
 public Color getColor() {
-	return color;
+	return color ;
 }
 
 
