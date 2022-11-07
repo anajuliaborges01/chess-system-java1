@@ -1,14 +1,24 @@
 package chess;
 
+<<<<<<< HEAD
 import boardgame.BoardException;
 import boardgame.Position;
 
 public class ChessPosition  {
+=======
+import boardgame.Position;
+
+public class ChessPosition {
+>>>>>>> 96b35f09c05f0c705714f535c4fdb5243c104045
 	private char column;
 	private int row;
 	public ChessPosition(char column, int row) {
 	if (column < 'a'|| column > 'h' || row < 1 || row > 8 ) {
+<<<<<<< HEAD
 			throw new BoardException ("Error instantiating ChessPosition .Valif values are from a1 to h8");
+=======
+			throw new ChessException ("Error instantiating ChessPosition .Valif values are from a1 to h8");
+>>>>>>> 96b35f09c05f0c705714f535c4fdb5243c104045
 		}
 	this.column = column;
 	this.row = row;
@@ -31,4 +41,7 @@ public class ChessPosition  {
 	return" " + column + row;
 }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96b35f09c05f0c705714f535c4fdb5243c104045
